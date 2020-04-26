@@ -15,7 +15,11 @@
 <h1><%=ele.name%></h1>
 <p><%=ele.img%></p>
 <p><%=ele.level%></p>
-<form action="/favorite" method="get">
+<form action="/favorite" method="POST">
+    <input type="text" name="name" value="<%=ele.name%>" style="display: none;">
+    <input type="text" name="img" value="<%=ele.img%>" style="display: none;">
+    <input type="text" name=level"" value="<%=ele.level%>" style="display: none;">
+    <input type="submit" value="Add">
 </form>
 <%})%>
     </main>

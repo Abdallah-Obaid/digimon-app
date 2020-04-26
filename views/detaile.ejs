@@ -7,7 +7,7 @@
 </head>
 <body>
     <form action="/update/<%=data.id%>?M=PUT" method="POST">
-        <input type="text" name="name" value="<%= data.name%>">
+        <input type="text" name="name" value="<%=data.name%>">
         <input type="text" name="img" value="<%=data.img%>">
         <input type="text" name="level" value="<%=data.level%>">
         <input type="submit" value="Update">

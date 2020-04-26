@@ -5,7 +5,7 @@ CREATE TABLE dataDig (
     img VARCHAR(255),
     name VARCHAR(255),
     level VARCHAR(255)
-)
+);
 
 
-INSERT INTO dataDig (img,name,level)  VALUES ('asdasd','asdsa','123');
+-- INSERT INTO dataDig (img,name,level)  VALUES ('asdasd','asdsa','123');
